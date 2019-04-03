@@ -6,7 +6,7 @@
 
 ### 高德
 
-高德开发者 API 提供了[逆地理编码](https://lbs.amap.com/api/webservice/guide/api/georegeo/)的能力，可以满足中文地址转换为经纬度，具体步骤有：
+高德开发者 API 提供了[地理编码](https://lbs.amap.com/api/webservice/guide/api/georegeo/)的能力，可以满足中文地址转换为经纬度，具体步骤有：
 
 1. 注册成为高德开发者
 2. 创建一个应用并添加“Web 服务”的 KEY
@@ -58,3 +58,7 @@ https://restapi.amap.com/v3/geocode/geo?key=26c5de63eb69ffaa1bb31496c621205e&add
 ```
 
 测试 demo：
+
+## 百度
+
+百度与高德的步骤类似，先去申请一个 key（ak），然后通过 http/https 来请求某地址的地理编码信息。但是，百度需要对开发者进行个人认证，需要身份证等信息，相比高德是不需要这些信息。而且，百度使用的这个 key 需要购买才能使用，每次购买是购买一定的查询次数。
